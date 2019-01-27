@@ -1,0 +1,30 @@
+#login-hero {
+  display: flex;
+  justify-content: center;
+  margin: 120px 0;
+
+  @media (max-width: 360px) and (orientation: portrait) {
+    margin: 10px;
+  }
+
+  #hero-container {
+    text-align: center;
+  }
+}
+
+body {
+  height: 100vh;
+
+  @media (max-width: 768px) and (orientation: landscape) {
+    height: 100%;
+  }
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+
+  @media (max-width: 768px) and (orientation: landscape) {
+    position: relative;
+  }
+}

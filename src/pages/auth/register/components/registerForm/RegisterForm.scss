@@ -1,0 +1,58 @@
+#register-container {
+  display: flex;
+  justify-content: center;
+  margin: 120px 0;
+
+  #register-form {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background: white;
+    padding: 1.6em 2em;
+
+    #form-header {
+      display: grid;
+      grid-template-rows: auto auto;
+      justify-items: center;
+    }
+
+    #form-body {
+      display: grid;
+      grid-template-rows: auto auto auto;
+      grid-gap: 10px;
+
+      #email,
+      #username,
+      #password {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+
+        p {
+          margin: 4px 0;
+        }
+
+        #email-input,
+        #username-input,
+        #password-input {
+          padding: 4px 10px;
+        }
+      }
+
+      #login-register {
+        margin-top: 10px;
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 10px;
+        align-items: center;
+
+        #register-button {
+          height: 40px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 360px) {
+    margin: 10px;
+  }
+}

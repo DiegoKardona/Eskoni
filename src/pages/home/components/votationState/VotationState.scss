@@ -1,0 +1,9 @@
+#closed-votation {
+  display: flex;
+  justify-content: center;
+  margin: 120px 0;
+
+  @media (max-width: 360px) and (orientation: portrait) {
+    margin: 10px;
+  }
+}

@@ -1,0 +1,13 @@
+#header {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 0.4em 2em;
+  border-bottom: 2px solid white;
+
+  #header-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

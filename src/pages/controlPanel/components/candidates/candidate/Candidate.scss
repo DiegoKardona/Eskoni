@@ -1,0 +1,22 @@
+.candidate {
+  display: grid;
+  justify-content: center;
+  min-width: 100px;
+  max-width: 1fr;
+
+  .candidate-photo {
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    max-height: 300px;
+    background-size: cover;
+    background-position: center;
+
+    @media (max-width: 758px) {
+      min-width: 100px;
+      max-width: 200px;
+      max-height: 200px;
+      min-height: 100px;
+    }
+  }
+}

@@ -1,0 +1,50 @@
+#logged-menu,
+#admin-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 10px;
+  align-items: center;
+
+  #user-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    align-items: center;
+
+    #user-name p {
+      max-width: 100px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    #user-avatar #avatar {
+      width: 34px;
+      height: 34px;
+      background-position: center;
+      background-size: cover;
+      border-radius: 50%;
+    }
+  }
+
+  #menu {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    padding: 0 10px;
+  }
+}
+
+#admin-menu {
+  #menu {
+    grid-template-columns: auto auto;
+  }
+}
+
+#login-menu {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+}

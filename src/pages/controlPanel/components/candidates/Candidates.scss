@@ -1,0 +1,12 @@
+#candidates {
+  #candidates-container {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+    @media (max-width: 360px) and (orientation: portrait) {
+      grid-template-columns: repeat(2, auto);
+    }
+  }
+}

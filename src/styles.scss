@@ -1,0 +1,17 @@
+/* Style structure */
+@import "./libs/main";
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700|Open+Sans:400,700,800");
+
+body {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+  background: linear-gradient(#000032, black);
+  height: 100%;
+  background-image: url(https://uploads.codesandbox.io/uploads/user/c212902a-9ed1-4f4c-abbc-be39043b2c85/eM2s-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  text-decoration: none;
+}

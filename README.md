@@ -1,2 +1,0 @@
-# Eskoni
-Created with CodeSandbox
